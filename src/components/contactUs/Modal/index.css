@@ -1,0 +1,58 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal .modalBox {
+  font-size: 20px;
+  background-color: white;
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ModalBtn {
+  transition: border-color 0.5s, background-color 0.5s, color;
+  margin: 5px 10px;
+  font-weight: 500;
+  font-size: 28px;
+  color: antiquewhite;
+  cursor: pointer;
+  text-align: center;
+}
+
+.yesBtn:hover {
+  background-color: #0f4425;
+}
+
+.noBtn:hover {
+  background-color: #761616;
+}
+
+.modalBox p {
+  text-align: right;
+}
+
+.yesBtn {
+  background-color: #2ecc71;
+}
+
+.noBtn {
+  background-color: #b22222;
+}
+
+.closeModal {
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+}

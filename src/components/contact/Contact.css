@@ -1,0 +1,10 @@
+.ConBody{
+    background-image: url('./bg-3.jpg');
+    /* opacity: 0.8; */
+    background-repeat: no-repeat;
+    background-position:left;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}

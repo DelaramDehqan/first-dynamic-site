@@ -1,0 +1,39 @@
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #92C6B9;
+}
+h4{
+  margin-left: 60px;
+  color: #4f4848;
+  font-size: 15px;
+}
+h4 span{
+  color:#c99896;
+  font-size: 22px;
+  padding: 3px;
+}
+.nav {
+  padding: 20px 400px;
+  text-align: center;
+}
+.nav a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #606161;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav a:hover {
+  color: #c99896;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  background-color:#c99896;
+  margin-top: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
